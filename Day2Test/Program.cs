@@ -13,6 +13,7 @@ namespace Day2Test
             int a = 1, b = 2;
             int result = 0;
             result = a + b;
+            int i2 = 25;
             double d = 23445533455534555;
             Console.WriteLine(result);
             Console.WriteLine("*\n**\n***");
@@ -26,6 +27,10 @@ namespace Day2Test
             Console.WriteLine("{0:0000}", x);
             Console.WriteLine("{0:0}", x);
             Console.WriteLine("{0:###00}", x);
+            long l = 2;
+            int i = 5;
+            i = (int)l;//Type Cast
+            Console.WriteLine(i2);
         }
     }
 }
