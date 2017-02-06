@@ -31,6 +31,7 @@ namespace Day2Test
             int i = 5;
             i = (int)l;//Type Cast
             Console.WriteLine(i2);
+            Console.WriteLine("I'm Htein Lin Aung from Myanmar.");
         }
     }
 }
